@@ -1,0 +1,42 @@
+'''''
+Problem Statement: Write a Python program that does the following:
+1.  Takes two numbers as input from the user.
+2.  Performs the basic mathematical operations on these two numbers:
+o	Addition
+o	Subtraction
+o	Multiplication
+o	Division
+3.  Displays the results of each operation on the screen.
+'''''
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+no_ofoperation= int(input("Enter number of operation: "))
+
+
+for i in range(no_ofoperation):
+    x = (input('enter operation: '))
+    if x == "+":
+     print('addition:',num1+num2)
+    if x == "-":
+     print('substraction:',num1-num2)
+    if x == "*":
+     print('multipication:',num1*num2)
+    if x == "/":
+     print('division:',num1/num2)
+
+
+
+'''
+Task 2: Create a Personalized Greeting
+Problem Statement: Write a Python program that:
+1.  Takes a user's first name and last name as input.
+2.  Concatenates the first name and last name into a full name.
+3.  Prints a personalized greeting message using the full name.
+'''
+
+f_first_name = input("Enter first name: ")
+f_last_name = input("Enter last name: ")
+print(f_first_name + " " + f_last_name)
+
+
