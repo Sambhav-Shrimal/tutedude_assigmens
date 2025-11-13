@@ -26,5 +26,5 @@ Problem Statement: Write a Python program that:
 
 f_first_name = input("Enter first name: ")
 f_last_name = input("Enter last name: ")
-print(f_first_name + " " + f_last_name)
+print('hello',f_first_name + " " + f_last_name,'welcome to the python program')
 
